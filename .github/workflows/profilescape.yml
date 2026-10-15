@@ -1,0 +1,55 @@
+name: Profilescape
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: profilescape-publish
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Render and publish public profile cards
+        uses: chethandvg/profilescape@f10e76d00155d5fc56ff8de4a42a68ba6f3a66f3
+        with:
+          username: rohit-j-dev
+          cards: stats,3d
+          theme: aurora
+          modes: dark,light
+          include_private: "false"
+          publish: branch
+          branch: profilescape-output
+          readme: README.md
+          commit_message: |
+            chore: refresh public profile cards [skip ci]
+
+            Co-authored-by: Copilot App <223556219+Copilot@users.noreply.github.com>
+          config: |
+            {
+              "darkColors": {
+                "bg": "#020617",
+                "panel": "#020617",
+                "accentA": "#A78BFA",
+                "accentB": "#00E5FF"
+              },
+              "options": {
+                "stats": {
+                  "title": "Public activity / last 12 months",
+                  "metrics": ["commits", "repos", "activeDays"],
+                  "chart": "none"
+                },
+                "3d": {
+                  "title": "Public contribution landscape"
+                }
+              }
+            }

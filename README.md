@@ -37,7 +37,29 @@ Welcome to my corner of GitHub. Explore the code. Follow the journey.
 
 This is the entry point to my public GitHub world: repositories, contributions, and discoveries, all linked below.
 
-## `02 / PROJECT EXPLORER`
+## `02 / LIVE TELEMETRY`
+
+Public GitHub activity, rendered as an Aurora dashboard with light and dark modes.
+
+<!-- profilescape:start -->
+<!-- profilescape:end -->
+
+[View public contributions](https://github.com/rohit-j-dev?tab=overview) · [Card refresh status](https://github.com/rohit-j-dev/rohit-j-dev/actions/workflows/profilescape.yml)
+
+<details>
+<summary>Behind the dashboard</summary>
+
+The cards refresh daily at 03:00 UTC (08:30 IST), or on a manual workflow run. They use public GitHub data only; no personal access token or private repository access is configured.
+
+[Profilescape](https://github.com/chethandvg/profilescape) generates the SVGs inside GitHub Actions and publishes them to the dedicated `profilescape-output` branch. Only the content between the Profilescape markers above is managed automatically; the rest of this page stays hand-edited.
+
+The workflow pins the action to an immutable commit and grants only repository contents write access for publishing. The generated output branch is replaced on refresh; `main` retains its normal commit history.
+
+Inspired by [this profile-building guide](https://dev.to/chethandvg/make-your-github-profile-look-great-in-15-minutes-with-chatgpt-no-coding-needed-h3), adapted to my existing futuristic layout without adding unverified roles, skills, or social links.
+
+</details>
+
+## `03 / PROJECT EXPLORER`
 
 | Destination | What you'll find |
 | :--- | :--- |
@@ -46,7 +68,7 @@ This is the entry point to my public GitHub world: repositories, contributions, 
 | **[This profile →](https://github.com/rohit-j-dev/rohit-j-dev)** | Go behind the interface: the Markdown that powers this page. |
 | **[Discovery shelf →](https://github.com/rohit-j-dev?tab=stars)** | Explore repositories I've starred on GitHub. |
 
-## `03 / OPERATING PRINCIPLES`
+## `04 / OPERATING PRINCIPLES`
 
 ```text
 01  STAY CURIOUS       Ask better questions.
