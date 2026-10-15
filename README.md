@@ -42,6 +42,17 @@ This is the entry point to my public GitHub world: repositories, contributions, 
 Public GitHub activity, rendered as an Aurora dashboard with light and dark modes.
 
 <!-- profilescape:start -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohit-j-dev/rohit-j-dev/profilescape-output/stats-dark.svg" />
+  <img src="https://raw.githubusercontent.com/rohit-j-dev/rohit-j-dev/profilescape-output/stats-light.svg" alt="GitHub stats: 4 contributions in the last 12 months. Commits: 3 past year, Repositories: 1 public, Active days: 1 of 366." width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohit-j-dev/rohit-j-dev/profilescape-output/3d-dark.svg" />
+  <img src="https://raw.githubusercontent.com/rohit-j-dev/rohit-j-dev/profilescape-output/3d-light.svg" alt="3D contribution landscape: 4 contributions in the last year" width="100%" />
+</picture>
+
 <!-- profilescape:end -->
 
 [View public contributions](https://github.com/rohit-j-dev?tab=overview) · [Card refresh status](https://github.com/rohit-j-dev/rohit-j-dev/actions/workflows/profilescape.yml)
