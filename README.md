@@ -74,6 +74,7 @@ Your most recently updated repositories, pulled live:
 ## ⚡ Recent activity
 
 <!--START_SECTION:activity-->
+No recent public issue, pull-request, comment, or release activity to display yet.
 <!--END_SECTION:activity-->
 
 ---
