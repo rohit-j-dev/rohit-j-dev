@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="723" viewBox="0 0 1200 723" role="img" aria-labelledby="title">
+<title id="title">What I build: AI &amp; Developer Automation (MCP SERVERS · LLM AGENTS · CI/CD): Python MCP servers for issue workflows, pipeline automation that drafts fixes and merge requests, and AI-assisted codebase exploration. Virtual Lab &amp; Digital Twin (NVIDIA OMNIVERSE · ISAAC SIM): Cloud-hosted virtual lab for elevator and robotics digital-twin workflows: Nucleus collaboration, USD scenes and robot simulation. Station Twin (DIGITAL TWIN PLATFORM): Building digital-twin experiences that connect real-world systems with their virtual representations. Hackathons &amp; Experiments (DATA · AI · RAPID PROTOTYPING): Service-conversation mining, multilingual text, topic discovery and practical AI workflows.</title>
+<style>
+.sans{font-family:'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace}
+.twinkle{animation:twinkle 4s ease-in-out infinite}
+.aurora{animation:aurora 16s ease-in-out infinite alternate}
+.aurora.b{animation-duration:21s;animation-direction:alternate-reverse}
+.bob{transform-box:fill-box;transform-origin:50% 90%;animation:bob 6s ease-in-out infinite}
+.shimmer{animation:shimmer 3.2s ease-in-out infinite}
+.glow{animation:glow 7s ease-in-out infinite}
+.cursor{animation:blink 1.1s steps(1) infinite}
+.petal{animation:fall linear infinite}
+.sweep{animation:sweep 9s ease-in-out infinite}
+.wave{animation:wave 14s linear infinite}
+.wave.b{animation-duration:22s;animation-direction:reverse}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes aurora{from{transform:translate(-40px,0)}to{transform:translate(60px,18px)}}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-1.2deg)}50%{transform:translateY(5px) rotate(1.2deg)}}
+@keyframes shimmer{0%,100%{opacity:.25}50%{opacity:.85}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@keyframes fall{from{transform:translate(0,-40px) rotate(0deg)}to{transform:translate(-260px,620px) rotate(540deg)}}
+@keyframes sweep{0%{transform:translateX(-30%)}100%{transform:translateX(130%)}}
+@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-600px)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#D8CCFF"/><stop offset="1" stop-color="#22D3EE"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#F472B6"/>
+</linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0D1230"/><stop offset="1" stop-color="#090C1E"/>
+</linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#22D3EE" stop-opacity=".55"/><stop offset=".45" stop-color="#8B5CF6" stop-opacity=".25"/>
+  <stop offset="1" stop-color="#F472B6" stop-opacity=".45"/>
+</linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#141A3D"/><stop offset="1" stop-color="#0E1230"/>
+</linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".07"/>
+  <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glowCyan"><stop offset="0" stop-color="#22D3EE" stop-opacity=".5"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowViolet"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowPink"><stop offset="0" stop-color="#F472B6" stop-opacity=".4"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+</defs>
+<clipPath id="clip"><rect width="1200" height="723" rx="28"/></clipPath>
+<g clip-path="url(#clip)">
+<rect width="1200" height="723" fill="url(#card)"/>
+<ellipse cx="1080" cy="0" rx="420" ry="325" fill="url(#glowViolet)" opacity=".55"/>
+<ellipse cx="0" cy="723" rx="360" ry="253" fill="url(#glowCyan)" opacity=".35"/>
+<rect class="sweep" x="0" y="0" width="420" height="723" fill="url(#beam)"/>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="721.5" rx="27.5" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<rect x="56" y="0" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="56.0" y="72.0" class="mono" font-size="16" font-weight="600" fill="#22D3EE" text-anchor="start" letter-spacing="4">02 // MISSION LOG</text>
+<text x="56.0" y="122.0" class="sans" font-size="34" font-weight="700" fill="#EEF1FF" text-anchor="start">What I build</text><rect x="56.0" y="162" width="532.0" height="245" rx="20" fill="url(#tile)" stroke="#22D3EE" stroke-opacity=".28"/>
+<rect x="80.0" y="162" width="186" height="2" fill="#22D3EE" opacity=".8"/>
+<rect x="86.0" y="192" width="54" height="54" rx="15.1" fill="#22D3EE" fill-opacity=".1" stroke="#22D3EE" stroke-opacity=".45"/><g transform="translate(97.9 203.9) scale(1.260)" fill="none" stroke="#22D3EE" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.6"/><circle cx="5" cy="18" r="2.6"/><circle cx="19" cy="18" r="2.6"/><path d="M10.7 7.3 6.3 15.7M13.3 7.3l4.4 8.4M7.6 18h8.8"/></g>
+<text x="158.0" y="216.3" class="sans" font-size="25" font-weight="700" fill="#EEF1FF" text-anchor="start">AI &amp; Developer Automation</text>
+<text x="158.0" y="242.3" class="mono" font-size="14" font-weight="600" fill="#22D3EE" text-anchor="start" letter-spacing="2">MCP SERVERS · LLM AGENTS · CI/CD</text>
+<text x="86.0" y="276.4" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">Python MCP servers for issue workflows,</text>
+<text x="86.0" y="303.0" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">pipeline automation that drafts fixes and merge</text>
+<text x="86.0" y="329.6" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">requests, and AI-assisted codebase exploration.</text>
+<g transform="translate(0 347)"><rect x="86.0" y="0.0" width="81.6" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#22D3EE" stroke-opacity=".6"/><rect x="86.0" y="0.0" width="81.6" height="30" rx="15.0" fill="#22D3EE" fill-opacity=".1"/><text x="126.8" y="19.7" class="mono" font-size="13" font-weight="600" fill="#22D3EE" text-anchor="middle" letter-spacing="1">Python</text>
+<rect x="175.6" y="0.0" width="57.8" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#8B5CF6" stroke-opacity=".6"/><rect x="175.6" y="0.0" width="57.8" height="30" rx="15.0" fill="#8B5CF6" fill-opacity=".1"/><text x="204.5" y="19.7" class="mono" font-size="13" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="1">MCP</text>
+<rect x="241.4" y="0.0" width="129.2" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#F472B6" stroke-opacity=".6"/><rect x="241.4" y="0.0" width="129.2" height="30" rx="15.0" fill="#F472B6" fill-opacity=".1"/><text x="305.9" y="19.7" class="mono" font-size="13" font-weight="600" fill="#F472B6" text-anchor="middle" letter-spacing="1">GitLab CI/CD</text>
+<rect x="378.5" y="0.0" width="65.7" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#FBBF24" stroke-opacity=".6"/><rect x="378.5" y="0.0" width="65.7" height="30" rx="15.0" fill="#FBBF24" fill-opacity=".1"/><text x="411.4" y="19.7" class="mono" font-size="13" font-weight="600" fill="#FBBF24" text-anchor="middle" letter-spacing="1">LLMs</text></g>
+<rect x="612.0" y="162" width="532.0" height="245" rx="20" fill="url(#tile)" stroke="#8B5CF6" stroke-opacity=".28"/>
+<rect x="636.0" y="162" width="186" height="2" fill="#8B5CF6" opacity=".8"/>
+<rect x="642.0" y="192" width="54" height="54" rx="15.1" fill="#8B5CF6" fill-opacity=".1" stroke="#8B5CF6" stroke-opacity=".45"/><g transform="translate(653.9 203.9) scale(1.260)" fill="none" stroke="#8B5CF6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8 20 7.3v9.4l-8 4.5-8-4.5V7.3Z"/><path d="M4 7.3l8 4.5 8-4.5M12 11.8v9.4"/></g>
+<text x="714.0" y="216.3" class="sans" font-size="25" font-weight="700" fill="#EEF1FF" text-anchor="start">Virtual Lab &amp; Digital Twin</text>
+<text x="714.0" y="242.3" class="mono" font-size="14" font-weight="600" fill="#8B5CF6" text-anchor="start" letter-spacing="2">NVIDIA OMNIVERSE · ISAAC SIM</text>
+<text x="642.0" y="276.4" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">Cloud-hosted virtual lab for elevator and</text>
+<text x="642.0" y="303.0" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">robotics digital-twin workflows: Nucleus</text>
+<text x="642.0" y="329.6" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">collaboration, USD scenes and robot simulation.</text>
+<g transform="translate(0 347)"><rect x="642.0" y="0.0" width="105.4" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#22D3EE" stroke-opacity=".6"/><rect x="642.0" y="0.0" width="105.4" height="30" rx="15.0" fill="#22D3EE" fill-opacity=".1"/><text x="694.7" y="19.7" class="mono" font-size="13" font-weight="600" fill="#22D3EE" text-anchor="middle" letter-spacing="1">Omniverse</text>
+<rect x="755.4" y="0.0" width="105.4" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#8B5CF6" stroke-opacity=".6"/><rect x="755.4" y="0.0" width="105.4" height="30" rx="15.0" fill="#8B5CF6" fill-opacity=".1"/><text x="808.1" y="19.7" class="mono" font-size="13" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="1">Isaac Sim</text>
+<rect x="868.7" y="0.0" width="57.8" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#F472B6" stroke-opacity=".6"/><rect x="868.7" y="0.0" width="57.8" height="30" rx="15.0" fill="#F472B6" fill-opacity=".1"/><text x="897.6" y="19.7" class="mono" font-size="13" font-weight="600" fill="#F472B6" text-anchor="middle" letter-spacing="1">USD</text>
+<rect x="934.5" y="0.0" width="57.8" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#FBBF24" stroke-opacity=".6"/><rect x="934.5" y="0.0" width="57.8" height="30" rx="15.0" fill="#FBBF24" fill-opacity=".1"/><text x="963.4" y="19.7" class="mono" font-size="13" font-weight="600" fill="#FBBF24" text-anchor="middle" letter-spacing="1">AWS</text></g>
+<rect x="56.0" y="430.7" width="532.0" height="245" rx="20" fill="url(#tile)" stroke="#F472B6" stroke-opacity=".28"/>
+<rect x="80.0" y="430.7" width="186" height="2" fill="#F472B6" opacity=".8"/>
+<rect x="86.0" y="460.7" width="54" height="54" rx="15.1" fill="#F472B6" fill-opacity=".1" stroke="#F472B6" stroke-opacity=".45"/><g transform="translate(97.9 472.6) scale(1.260)" fill="none" stroke="#F472B6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20.5h18M5 20.5V9.5l7-5 7 5v11"/><path d="M9 20.5v-6h6v6M8.5 10.5h7"/></g>
+<text x="158.0" y="485.0" class="sans" font-size="25" font-weight="700" fill="#EEF1FF" text-anchor="start">Station Twin</text>
+<text x="158.0" y="511.0" class="mono" font-size="14" font-weight="600" fill="#F472B6" text-anchor="start" letter-spacing="2">DIGITAL TWIN PLATFORM</text>
+<text x="86.0" y="545.1" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">Building digital-twin experiences that connect</text>
+<text x="86.0" y="571.7" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">real-world systems with their virtual</text>
+<text x="86.0" y="598.3" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">representations.</text>
+<g transform="translate(0 615)"><rect x="86.0" y="0.0" width="137.1" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#22D3EE" stroke-opacity=".6"/><rect x="86.0" y="0.0" width="137.1" height="30" rx="15.0" fill="#22D3EE" fill-opacity=".1"/><text x="154.5" y="19.7" class="mono" font-size="13" font-weight="600" fill="#22D3EE" text-anchor="middle" letter-spacing="1">Digital Twins</text>
+<rect x="231.1" y="0.0" width="73.7" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#8B5CF6" stroke-opacity=".6"/><rect x="231.1" y="0.0" width="73.7" height="30" rx="15.0" fill="#8B5CF6" fill-opacity=".1"/><text x="267.9" y="19.7" class="mono" font-size="13" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="1">Cloud</text>
+<rect x="312.7" y="0.0" width="129.2" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#F472B6" stroke-opacity=".6"/><rect x="312.7" y="0.0" width="129.2" height="30" rx="15.0" fill="#F472B6" fill-opacity=".1"/><text x="377.3" y="19.7" class="mono" font-size="13" font-weight="600" fill="#F472B6" text-anchor="middle" letter-spacing="1">3D Workflows</text></g>
+<rect x="612.0" y="430.7" width="532.0" height="245" rx="20" fill="url(#tile)" stroke="#FBBF24" stroke-opacity=".28"/>
+<rect x="636.0" y="430.7" width="186" height="2" fill="#FBBF24" opacity=".8"/>
+<rect x="642.0" y="460.7" width="54" height="54" rx="15.1" fill="#FBBF24" fill-opacity=".1" stroke="#FBBF24" stroke-opacity=".45"/><g transform="translate(653.9 472.6) scale(1.260)" fill="none" stroke="#FBBF24" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 2.5 5 13.5h6l-1 8 8.5-11h-6Z"/></g>
+<text x="714.0" y="485.0" class="sans" font-size="25" font-weight="700" fill="#EEF1FF" text-anchor="start">Hackathons &amp; Experiments</text>
+<text x="714.0" y="511.0" class="mono" font-size="14" font-weight="600" fill="#FBBF24" text-anchor="start" letter-spacing="2">DATA · AI · RAPID PROTOTYPING</text>
+<text x="642.0" y="545.1" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">Service-conversation mining, multilingual text,</text>
+<text x="642.0" y="571.7" class="sans" font-size="19" font-weight="400" fill="#C9D0F0" text-anchor="start">topic discovery and practical AI workflows.</text>
+<g transform="translate(0 589)"><rect x="642.0" y="0.0" width="113.3" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#22D3EE" stroke-opacity=".6"/><rect x="642.0" y="0.0" width="113.3" height="30" rx="15.0" fill="#22D3EE" fill-opacity=".1"/><text x="698.6" y="19.7" class="mono" font-size="13" font-weight="600" fill="#22D3EE" text-anchor="middle" letter-spacing="1">Databricks</text>
+<rect x="763.3" y="0.0" width="81.6" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#8B5CF6" stroke-opacity=".6"/><rect x="763.3" y="0.0" width="81.6" height="30" rx="15.0" fill="#8B5CF6" fill-opacity=".1"/><text x="804.1" y="19.7" class="mono" font-size="13" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="1">Python</text>
+<rect x="852.9" y="0.0" width="73.7" height="30" rx="15.0" fill="none" fill-opacity="0" stroke="#F472B6" stroke-opacity=".6"/><rect x="852.9" y="0.0" width="73.7" height="30" rx="15.0" fill="#F472B6" fill-opacity=".1"/><text x="889.7" y="19.7" class="mono" font-size="13" font-weight="600" fill="#F472B6" text-anchor="middle" letter-spacing="1">GenAI</text></g>
+</svg>

@@ -1,0 +1,52 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Colors match the profile palette in tools/build_profile_ui.py.
+          outputs: |
+            dist/github-snake.svg?color_snake=#DB2777&color_dots=#ECEAF7,#D8CCFB,#B79BF7,#8B5CF6,#0891B2
+            dist/github-snake-dark.svg?color_snake=#F472B6&color_dots=#161B33,#3B2A6B,#5B3FB0,#8B5CF6,#22D3EE
+      - name: Check generated images
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for name in ("github-snake.svg", "github-snake-dark.svg"):
+              root = ET.parse(Path("dist") / name).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise ValueError(f"Invalid snake SVG: {name}")
+          PY
+      - name: Publish snake without rewriting history
+        uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc # v3
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: |
+            chore: update contribution snake [skip ci]
+
+            Co-authored-by: Copilot App <223556219+Copilot@users.noreply.github.com>
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
